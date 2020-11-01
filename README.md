@@ -1,6 +1,6 @@
-### Gday'
+### pleas e help
 
-🤔 Chicken nuggets are related to chicken tenders? Whhaaatttt...
+i stubbed my toe :(
 
 ---
 
