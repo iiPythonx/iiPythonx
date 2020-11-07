@@ -4,7 +4,14 @@ i stubbed my toe :(
 
 ---
 
-I'm **iiPython** (ii-Python on here), and I program in Python.
-I make website backends, discord bots, PyPi packages, etc.
+[![iiPython's Github Stats](https://github-readme-stats.vercel.app/api?username=ii-Python&hide=stars,prs&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 
-💬 If you need help with something, feel free to message me on Discord **iiPython#0768**.
+^ this thing is cool but also depressing
+
+---
+
+i know python, css, html, javascript, java, rust, and some C
+except literally the only things i push to github are python
+
+ok thanks for reading
+bye people
