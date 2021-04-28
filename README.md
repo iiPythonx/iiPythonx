@@ -23,7 +23,3 @@ I'm also learning assembly for some lower level operations (and perhaps might ev
 For the fastest response time, it's recommended to message me on discord at `iiPython#0768`.
 
 Just in case, you can always shoot me an email at `ben@iipython.cf`.
-
-
----
-[![iiPython's Github Stats](https://github-readme-stats.vercel.app/api?username=ii-Python&hide=stars,prs&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
