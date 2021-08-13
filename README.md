@@ -1,4 +1,4 @@
-```
+```python
 iiPython Kernel v1.2.7-git  
 Type 'help' for a list of commands.
 
@@ -19,7 +19,7 @@ Type 'help' for a list of commands.
 <class 'contact' email='ben@iipython.cf' web='https://iipython.cf'>
 
 /github/profile> contact --fastest
-<class 'contact' type='discord' account='iiPython#0768'
+<class 'contact' type='discord' account='iiPython#0768'>
 
 /github/profile> exit
 <class 'str' repr='Goodbye.'>
