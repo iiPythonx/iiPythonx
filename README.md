@@ -1,25 +1,20 @@
-## 👋 Hello there!
----
+```
+iiPython Kernel v1.2.7-git  
+Type 'help' for a list of commands.
 
-Welcome to my github profile, the place where most of my projects are published.
+/github/profile> langs
+Python, C (C#, C++), Assembly, JS, HTML & CSS
 
----
-#### 🧠 Known languages
-I know Python, Node.js, HTML/CSS/JS, Lua, and a bit of Java.
-Primarily I tend to work with Python, with websites (HTML/CSS) being my close second.
+/github/profile> langs --primary
+Python, JS
 
-Some frameworks I also know would include:
-  - Bootstrap
-  - & Flask
+/github/profile> contact
+ben@iipython.cf
+https://iipython.cf
 
-#### 📘 Languages I'm Learning
-Trying to learn Java/C slowly but definitely surely.
+/github/profile> contact --fastest
+<class 'discord' account='iiPython#0768'>
 
-I'm also learning assembly for some lower level operations (and perhaps might even create an OS?).
-
-
----
-#### 💬 Contact me
-For the fastest response time, it's recommended to message me on discord at `iiPython#0768`.
-
-Just in case, you can always shoot me an email at `ben@iipython.cf`.
+/github/profile> exit
+Goodbye.
+```
