@@ -1,16 +1,8 @@
-```
-iiPython Kernel v1.2.8-git  
-Type 'help' for a list of commands.
+Howdy, I'm iiPython.  
+I'm a full-stack developer in [Python](https://python.org), [Lua](https://lua.org), [NodeJS](https://nodejs.org) and more.
 
-~/github $ langs
-Python, Lua, C, C#, C++, HTML, JS, CSS
+Currently, I'm working on the following:
+- [x2](https://github.com/ii-Python/x2) (Programming Language)
+- [Prism v3](https://github.com/ii-Python/Prism-v3) (Discord Bot)
 
-~/github $ langs --primary
-Python, Lua, JS
-
-~/github $ contact
-ben@iipython.cf (https://iipython.cf)
-
-~/github $ contact --fastest
-iiPython#0768
-```
+While you're here, consider checking out [DmmD](https://github.com/Dm12332131mD).
