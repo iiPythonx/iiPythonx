@@ -1,0 +1,129 @@
+# iiPython Alacritty Config
+
+#[ WINDOW CONFIG ]#
+window:
+  dimensions:
+    columns: 75
+    lines: 20
+
+  padding:
+    x: 5  # px
+    y: 5  # px
+
+  dynamic_padding: false  # Dynamically pad
+  decorations: full  # Title + buttons + border
+
+  startup_mode: Windowed
+
+scrolling:
+  history: 120
+  multiplier: 3
+
+window.opacity: 1.0
+
+#[ FONT CONFIGS ]#
+font:
+  normal:
+    family: Cousine for Powerline
+    style: Regular
+
+  bold:
+    family: Cousine for Powerline
+    style: Bold
+
+  italic:
+    family: Cousine for Powerline
+    style: Italic
+
+  size: 12.0
+  offset:
+    x: 0
+    y: 0
+
+  glyph_offset:
+    x: 0
+    y: 0
+
+#[ COLOR SCHEMES ]#
+import:
+- ~/.config/alacritty/colors.yml
+
+custom_cursor_colors: true
+draw_bold_text_with_bright_colors: false
+
+#[ BELL ]#
+bell:
+  animation: EaseOutExpo
+  color: '0xffffff'
+  duration: 0
+
+#[ KEYBINDS ]#
+key_bindings:
+
+  # Base keybinds (Copy, Paste, etc)
+  - { key: V,        mods: Control|Shift, action: Paste                        }
+  - { key: C,        mods: Control|Shift, action: Copy                         }
+  - { key: Q,        mods: Control|Shift, action: Quit                         }
+  - { key: Return,   mods: Control|Shift, action: ToggleFullscreen             }
+
+  # Font changes
+  - { key: Equals,   mods: Control,       action: IncreaseFontSize             }
+  - { key: Minus,    mods: Control,       action: DecreaseFontSize             }
+  - { key: Equals,   mods: Command|Shift, action: ResetFontSize                }
+  - { key: Minus,    mods: Command|Shift, action: ResetFontSize                }
+
+  # Cursor moving
+  - { key: PageUp,   mods: Shift,         chars: "\x1b[5;2~"                   }
+  - { key: PageUp,   mods: Control,       chars: "\x1b[5;5~"                   }
+  - { key: PageUp,                        chars: "\x1b[5~"                     }
+  - { key: PageDown, mods: Shift,         chars: "\x1b[6;2~"                   }
+  - { key: PageDown, mods: Control,       chars: "\x1b[6;5~"                   }
+  - { key: PageDown,                      chars: "\x1b[6~"                     }
+  - { key: Left,     mods: Shift,         chars: "\x1b[1;2D"                   }
+  - { key: Left,     mods: Control,       chars: "\x1b[1;5D"                   }
+  - { key: Left,     mods: Alt,           chars: "\x1b[1;3D"                   }
+  - { key: Left,                          chars: "\x1b[D",   mode: ~AppCursor  }
+  - { key: Left,                          chars: "\x1bOD",   mode: AppCursor   }
+  - { key: Right,    mods: Shift,         chars: "\x1b[1;2C"                   }
+  - { key: Right,    mods: Control,       chars: "\x1b[1;5C"                   }
+  - { key: Right,    mods: Alt,           chars: "\x1b[1;3C"                   }
+  - { key: Right,                         chars: "\x1b[C",   mode: ~AppCursor  }
+  - { key: Right,                         chars: "\x1bOC",   mode: AppCursor   }
+  - { key: Up,       mods: Shift,         chars: "\x1b[1;2A"                   }
+  - { key: Up,       mods: Control,       chars: "\x1b[1;5A"                   }
+  - { key: Up,       mods: Alt,           chars: "\x1b[1;3A"                   }
+  - { key: Up,                            chars: "\x1b[A",   mode: ~AppCursor  }
+  - { key: Up,                            chars: "\x1bOA",   mode: AppCursor   }
+  - { key: Down,     mods: Shift,         chars: "\x1b[1;2B"                   }
+  - { key: Down,     mods: Control,       chars: "\x1b[1;5B"                   }
+  - { key: Down,     mods: Alt,           chars: "\x1b[1;3B"                   }
+  - { key: Down,                          chars: "\x1b[B",   mode: ~AppCursor  }
+  - { key: Down,                          chars: "\x1bOB",   mode: AppCursor   }
+  - { key: Tab,      mods: Shift,         chars: "\x1b[Z"                      }
+  - { key: Back,                          chars: "\x7f"                        }
+  - { key: Back,     mods: Alt,           chars: "\x1b\x7f"                    }
+  - { key: Insert,                        chars: "\x1b[2~"                     }
+  - { key: Delete,                        chars: "\x1b[3~"                     }
+
+#[ Mouse Handling ]#
+mouse:
+  double_click: { threshold: 300 }
+  triple_click: { threshold: 300 }
+
+  hide_when_typing: false
+
+selection:
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>"
+  save_to_clipboard: false  # Use CTRL+SHIFT+C
+
+mouse_bindings:
+  - { mouse: Right, action: PasteSelection }
+
+#[ Cursor ]#
+cursor:
+  style: Underline
+  unfocused_hollow: false
+
+#[ Extras ]#
+live_config_reload: true
+

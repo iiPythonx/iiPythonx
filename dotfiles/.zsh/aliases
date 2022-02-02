@@ -1,0 +1,16 @@
+#!/usr/bin/zsh
+
+# Built-in commands
+alias ls="exa --long --no-time --no-user $@"
+alias cat="bat $@"
+alias less="bat $@"
+
+# Extra aliases
+alias nano="micro $@"
+alias reload="clear && source $HOME/.zshrc"
+alias pbar="bash $HOME/.config/polybar/launch.sh"
+alias novnc="cd && ./launch_novnc.sh"
+
+# Python aliases
+alias python3="python3.10 $@"
+alias pip="python3.10 -m pip $@"
