@@ -9,5 +9,5 @@ As of right now, these are my primary projects:
 + [Plasma](https://github.com/plasma-chat/plasma) (Chatting Protocol)
 
 
-You can contact me either via Discord ([iiPython#0768](https://discord.com/users/633185043774177280)), or by email ([ben@iipython.cf](mailto:ben@iipython.cf)).
+You can contact me either via Discord ([iiPython#0768](https://discord.com/users/633185043774177280)), or by email ([ben@iipython.cf](mailto:ben@iipython.cf)).  
 Also consider checking out [DmmD](https://github.com/Dm12332131mD); he works in JS and makes some pretty impressive things.
