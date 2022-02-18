@@ -5,7 +5,7 @@ I'm a full-stack developer in [Python](https://python.org), [Lua](https://lua.or
 I primarily focus on CLIs and socket-based applications, although I also [work with websites](https://iipython.cf) and [discord bots](https://github.com/ii-Python/Prism-v3).
 
 As of right now, these are my primary projects:
-+ ~~[x2](https://github.com/ii-Python/x2) (Programming Language)~~
++ [x2](https://github.com/ii-Python/x2) (Programming Language)
 + [Plasma](https://github.com/plasma-chat/plasma) (Chatting Protocol)
 
 
