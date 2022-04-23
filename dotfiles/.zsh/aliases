@@ -1,7 +1,7 @@
 #!/usr/bin/zsh
 
 # Built-in commands
-alias ls="exa --long --no-time --no-user $@"
+alias ls="exa --long --no-time --no-user --no-permissions --icons $@"
 alias cat="bat $@"
 alias less="bat $@"
 
