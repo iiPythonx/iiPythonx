@@ -1,0 +1,3 @@
+api_key = ""
+city_id = ""
+display = "{{ forecast_icon }} {{ temp_fahrenheit }}°F"
