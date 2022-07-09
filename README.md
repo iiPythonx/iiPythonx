@@ -2,13 +2,16 @@
 
 ---
 I'm a full-stack developer in [Python](https://python.org), [Lua](https://lua.org), [NodeJS](https://nodejs.org) and more.  
-I primarily focus on CLIs and socket-based applications, although I also [work with websites](https://iipython.cf) and [discord bots](https://github.com/ii-Python/Prism-v3).
+I primarily focus on CLI/TUIs and socket-based applications, although I also [work with websites](https://iipython.cf) and [discord bots](https://github.com/ii-Python/Prism-v3).
 
-As of right now, these are my primary projects:
+Here are some of my current projects (July 22):
++ [Lockbox](https://github.com/ii-Python/lockbox) (TUI Ledger System)
 + [eDOS](https://github.com/ii-Python/eDOS) (Terminal-based Operating System)
-+ [Roblox Status Live](https://github.com/RobloxStatusLive) (Status Monitor)
-+ [Plasma](https://github.com/plasma-chat/plasma) (Chatting Protocol)
 
+---
+Taking a break from most programming as of June 2022;  
+I'll update this README when school starts and I get more project ideas/motivation. 
 
-You can contact me either via Discord ([iiPython#0768](https://discord.com/users/633185043774177280)), or by email ([ben@iipython.cf](mailto:ben@iipython.cf)).  
-Also consider checking out [DmmD](https://github.com/Dm12332131mD); he works in JS and makes some pretty impressive things.
+---
+If you need to contact me, you can do so either via Discord ([iiPython#0768](https://discord.com/users/633185043774177280)), or by email ([ben@iipython.cf](mailto:ben@iipython.cf)).  
+Looking for JS-related projects? Check out [DmmD](https://github.com/Dm12332131mD).
