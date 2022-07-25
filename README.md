@@ -4,8 +4,8 @@
 I'm a full-stack developer in [Python](https://python.org), [Lua](https://lua.org), [NodeJS](https://nodejs.org) and more.  
 I primarily focus on CLI/TUIs and socket-based applications, although I also [work with websites](https://iipython.cf) and [discord bots](https://github.com/ii-Python/Prism-v3).
 
-Here are some of my current projects (July 22):
-+ [Lockbox](https://github.com/ii-Python/lockbox) (TUI Ledger System)
+Here are some of my current projects (July 25):
++ [Nitrogen](https://github.com/ii-Python/nitrogen) (Python module for web applications)
 + [eDOS](https://github.com/ii-Python/eDOS) (Terminal-based Operating System)
 
 ---
