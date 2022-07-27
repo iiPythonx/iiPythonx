@@ -6,8 +6,8 @@ I primarily focus on CLI/TUIs and socket-based applications, although I also [wo
 
 Here are some of my current projects (July 27):
 + [iiPython Networking OS](https://github.com/iiPythonNetworking/os) (OS designed for networking-based processes)
-+ [Nitrogen](https://github.com/ii-Python/nitrogen) (Python module for web applications)
-+ [eDOS](https://github.com/ii-Python/eDOS) (Terminal-based Operating System)
++ [Nitrogen](https://github.com/iiPythonx/nitrogen) (Python module for web applications)
++ [eDOS](https://github.com/iiPythonx/eDOS) (Terminal-based Operating System)
 
 ---
 Taking a break from most programming as of June 2022;  
