@@ -3,11 +3,11 @@
 ---
 
 I'm a full-stack developer in Python, Lua, NodeJS and more.
-I primarily focus on CLI/TUIs and socket-based applications, although I also work with websites and discord bots.
+I primarily focus on CLI/TUIs and [socket-based applications](https://github.com/plasma-chat), although I also work with [websites](https://iipython.cf) and [discord bots](https://github.com/iiPythonx/Prism-v3).
 
 <br />
-<a href = "#"><img alt = "My GitHub stats" src = "https://github-readme-stats.vercel.app/api/?username=iiPythonx&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=3d3d3d&title_color=edbb5f&icon_color=edbb5f" height = "192px" /></a>
-<a href = "#"><img alt = "My most used languages" src = "https://github-readme-stats.vercel.app/api/top-langs/?username=iiPythonx&langs_count=6&layout=compact&theme=react&hide_border=true&bg_color=3d3d3d&title_color=edbb5f&icon_color=edbb5f" height = "192px"></a>
+<img alt = "My GitHub stats" src = "https://github-readme-stats.vercel.app/api/?username=iiPythonx&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=3d3d3d&title_color=edbb5f&icon_color=edbb5f" height = "192px" />
+<img alt = "My most used languages" src = "https://github-readme-stats.vercel.app/api/top-langs/?username=iiPythonx&langs_count=6&layout=compact&theme=react&hide_border=true&bg_color=3d3d3d&title_color=edbb5f&icon_color=edbb5f" height = "192px">
 <br />
 
 ### Active repos
