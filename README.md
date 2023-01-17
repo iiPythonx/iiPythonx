@@ -19,7 +19,7 @@ I went to and competed at [<i>VEX Worlds 2022</i>](https://www.roboticseducation
 <br />
 
 ### Active repos
-<p align = "left">
+<p>
     <a href = "https://github.com/Roblox-StreamX/StreamX"><img width = "270" alt = "StreamX" src = "https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=Roblox-StreamX&repo=Client&theme=react&bg_color=3d3d3d&title_color=edbb5f&icon_color=edbb5f&hide_border=true&show_icons=true" /></a>
     <a href = "https://github.com/iiPythonx/Prism-v3"><img width = "270" alt = "Prism v3" src = "https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=iiPythonx&repo=Prism-v3&theme=react&bg_color=3d3d3d&title_color=edbb5f&icon_color=edbb5f&hide_border=true&show_icons=true"></a>
     <a href = "https://github.com/iiPythonx/edos"><img width = "270" alt = "eDOS" src = "https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=iiPythonx&repo=eDOS&theme=react&bg_color=3d3d3d&title_color=edbb5f&icon_color=edbb5f&hide_border=true&show_icons=true"></a>
@@ -43,7 +43,7 @@ I went to and competed at [<i>VEX Worlds 2022</i>](https://www.roboticseducation
 
 <p>
   <a href = "https://getbootstrap.com/"><img alt = "Bootstrap" src = "https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white&style=for-the-badge" /></a>
-  <a href = "https://expressjs.com/"><img alt = "Flask" src = "https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white&style=for-the-badge" /></a>
+  <a href = "https://flask.palletsprojects.com/en/2.2.x/"><img alt = "Flask" src = "https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white&style=for-the-badge" /></a>
   <a href = "https://expressjs.com/"><img alt = "Express" src = "https://img.shields.io/badge/Express-000000?logo=express&logoColor=white&style=for-the-badge" /></a>
   <a href = "https://jquery.com/"><img alt = "jQuery" src = "https://img.shields.io/badge/jQuery-0769AD?logo=jquery&logoColor=white&style=for-the-badge" /></a>
   <a href = "https://m3.material.io/"><img alt = "Material Design" src = "https://img.shields.io/badge/Material%20Design-757575?logo=material-design&logoColor=white&style=for-the-badge" /></a>
