@@ -13,16 +13,18 @@ I went to and competed at [<i>VEX Worlds 2022</i>](https://www.roboticseducation
 
 ---
 
-<br />
-<img alt = "My GitHub stats" src = "https://ghreadme.iipython.cf/api/?username=iiPythonx&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=3d3d3d&title_color=edbb5f&icon_color=edbb5f" height = "192px" />
-<img alt = "My most used languages" src = "https://ghreadme.iipython.cf/api/top-langs/?username=iiPythonx&langs_count=6&layout=compact&theme=react&hide_border=true&bg_color=3d3d3d&title_color=edbb5f&icon_color=edbb5f" height = "192px">
+<a>
+<img align = "center" alt = "My GitHub stats" src = "https://ghreadme.iipython.cf/api/?username=iiPythonx&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=3d3d3d&title_color=edbb5f&icon_color=edbb5f" height = "192px" />
+</a>
+<a>
+<img align = "center" alt = "My most used languages" src = "https://ghreadme.iipython.cf/api/top-langs/?username=iiPythonx&langs_count=6&layout=compact&theme=react&hide_border=true&bg_color=3d3d3d&title_color=edbb5f&icon_color=edbb5f" height = "192px">
+</a>
 <br />
 
 ### Active repos
 <p>
-    <a href = "https://github.com/Roblox-StreamX/StreamX"><img width = "270" alt = "StreamX" src = "https://ghreadme.iipython.cf/api/pin/?username=Roblox-StreamX&repo=Client&theme=react&bg_color=3d3d3d&title_color=edbb5f&icon_color=edbb5f&hide_border=true&show_icons=true" /></a>
-    <a href = "https://github.com/iiPythonx/Prism-v3"><img width = "270" alt = "Prism v3" src = "https://ghreadme.iipython.cf/api/pin/?username=iiPythonx&repo=Prism-v3&theme=react&bg_color=3d3d3d&title_color=edbb5f&icon_color=edbb5f&hide_border=true&show_icons=true"></a>
-    <a href = "https://github.com/iiPythonx/edos"><img width = "270" alt = "eDOS" src = "https://ghreadme.iipython.cf/api/pin/?username=iiPythonx&repo=eDOS&theme=react&bg_color=3d3d3d&title_color=edbb5f&icon_color=edbb5f&hide_border=true&show_icons=true"></a>
+    <a href = "https://github.com/Roblox-StreamX/Client"><img alt = "StreamX" src = "https://ghreadme.iipython.cf/api/pin/?username=Roblox-StreamX&repo=Client&theme=react&bg_color=3d3d3d&title_color=edbb5f&icon_color=edbb5f&hide_border=true&show_icons=true&show_owner=true" /></a>
+    <a href = "https://github.com/Roblox-StreamX/Delivery"><img alt = "Delivery" src = "https://ghreadme.iipython.cf/api/pin/?username=Roblox-StreamX&repo=Delivery&theme=react&bg_color=3d3d3d&title_color=edbb5f&icon_color=edbb5f&hide_border=true&show_icons=true&show_owner=true"></a>
 </p>
 
 ### Languages
