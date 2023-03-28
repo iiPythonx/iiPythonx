@@ -18,7 +18,7 @@ I went to and competed at [<i>VEX Worlds 2022</i>](https://www.roboticseducation
   <br />
   <h3>Active repos</h3>
   <a href = "https://github.com/iiPythonx/garchive"><img alt = "Geesecraft" src = "https://ghreadme.iipython.cf/api/pin/?username=iiPythonx&repo=garchive&theme=react&bg_color=3d3d3d&title_color=edbb5f&icon_color=edbb5f&hide_border=true&show_icons=true&show_owner=true" /></a>
-  <a href = "https://github.com/iiPythonx/xenon"><img alt = "Xenon" src = "https://ghreadme.iipython.cf/api/pin/?username=iiPythonx&repo=xenon&theme=react&bg_color=3d3d3d&title_color=edbb5f&icon_color=edbb5f&hide_border=true&show_icons=true&show_owner=true"></a>
+  <a href = "https://github.com/iiPythonx/xpp"><img alt = "x++" src = "https://ghreadme.iipython.cf/api/pin/?username=iiPythonx&repo=xpp&theme=react&bg_color=3d3d3d&title_color=edbb5f&icon_color=edbb5f&hide_border=true&show_icons=true&show_owner=true"></a>
 
   <h3>Experience</h3>
   <a href = "https://python.org"><img alt = "Python" src = "https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge"></a>
