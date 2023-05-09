@@ -3,7 +3,7 @@
 ---
 
 I'm a full-stack developer in Python, Lua, NodeJS and more.
-I primarily focus on CLI/TUIs and [socket-based applications](https://github.com/plasma-chat), although I also work with [websites](https://iipython.cf) and [discord bots](https://github.com/iiPythonx/Prism-v3).
+I primarily focus on CLI/TUIs and [socket-based applications](https://github.com/plasma-chat), although I also work with [websites](https://iipython.dev) and [discord bots](https://github.com/iiPythonx/Prism-v3).
 
 
 ---
