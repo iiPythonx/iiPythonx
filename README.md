@@ -5,7 +5,7 @@
     Additionally, I also act as a part-time robot programmer in <a href = "https://www.firstinspires.org/robotics/ftc"><i>FIRST</i> Tech Challenge</a> and <a href = "https://www.vexrobotics.com">VEX Robotics</a>.
   </p>
   <br />
-  <img alt = "My top languages" src = "https://readme.iipython.dev/api/top-langs/?username=iiPythonx&langs_count=6&layout=compact&title_color=1793d0&text_color=ffffff&bg_color=121212&border_radius=10" />
+  <img alt = "My top languages" src = "https://readme.iipython.dev/api/top-langs/?username=iiPythonx&langs_count=6&layout=compact&title_color=1793d0&text_color=ffffff&bg_color=121212&border_radius=10&exclude_repo=acellus" />
   <img alt = "My GitHub stats" src = "https://readme.iipython.dev/api/?username=iiPythonx&show_icons=true&count_private=true&title_color=1793d0&text_color=ffffff&bg_color=121212&icon_color=edbb5f&border_radius=10" height = "165px" />
   <br />
   <a href = "https://github.com/iiarchives">(note that most of my old repositories will not be counted)</a>
