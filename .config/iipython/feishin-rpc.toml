@@ -1,6 +1,6 @@
 # The LOCAL URL of your server (hostnames supported)
 # If you want discord to use the art url your client sends, set this AND url_public to ""
-url = "https://navidrome.obrien.lan"
+url = ""
 
 # (optional) Use a public imgproxy server? (needed most of the time)
 # Obviously, you can self host your own imgproxy server as desired.
