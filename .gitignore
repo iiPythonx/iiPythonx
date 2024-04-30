@@ -1,2 +1,5 @@
 .config/fish/*
 !.config/fish/config.fish
+
+.config/micro/*
+!.config/micro/*.json
