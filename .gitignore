@@ -3,3 +3,5 @@
 
 .config/micro/*
 !.config/micro/*.json
+
+.uuid

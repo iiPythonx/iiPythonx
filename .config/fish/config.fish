@@ -5,6 +5,7 @@ starship init fish | source
 
 fish_add_path ~/.local/bin
 fish_add_path ~/.cargo/bin
+fish_add_path ~/.rye/shims
 
 alias v "source .venv/bin/activate.fish"
 alias ls "eza"
