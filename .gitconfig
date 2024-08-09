@@ -1,0 +1,10 @@
+[user]
+	email = ben@iipython.dev
+	name = iiPython
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOUGHRJ3II7x7a/gtKtmRAMvx75H1MblJhCO8Eg75cB+
+[commit]
+	gpgsign = true
+[gpg]
+	format = ssh
+[init]
+	defaultBranch = main
