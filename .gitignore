@@ -4,4 +4,6 @@
 .config/micro/*
 !.config/micro/*.json
 
+.fonts/Custom*
+.fonts/Roboto*
 .uuid
