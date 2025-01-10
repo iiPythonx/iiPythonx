@@ -7,7 +7,8 @@
 		"clock"
 	],
 	"modules-right": [
-		"tray"	
+		"mpris",
+		"tray"
 	],
 	"wlr/taskbar": {
 		"on-click": "minimize-raise"
@@ -17,5 +18,20 @@
 	},
 	"tray": {
 		"spacing": 10
+	},
+	"mpris": {
+		"player": "Feishin",
+		"format": "{player_icon} {dynamic}",
+		"format-paused": "{status_icon} {dynamic}",
+		"dynamic-order": [
+			"artist",
+			"title"
+		],
+		"player-icons": {
+			"default": "♫"
+		},
+		"status-icons": {
+			"paused": "⏸"
+		}
 	}
 }
