@@ -1,0 +1,2 @@
+swaybg -i ~/.wallpapers/5.jpg >/dev/null 2>&1 &
+waybar >/dev/null 2>&1 &

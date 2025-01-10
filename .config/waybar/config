@@ -1,0 +1,15 @@
+{
+	"modules-left": [
+		"wlr/taskbar"
+	],
+	"modules-center": [
+		"clock"
+	],
+	"modules-right": [
+		"tray"	
+	],
+	"wlr/taskbar": {
+		"format": "{app_id}",
+		"on-click": "minimize-raise"
+	}
+}

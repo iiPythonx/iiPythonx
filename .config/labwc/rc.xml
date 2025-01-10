@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<labwc_config>
+	<keyboard>
+		<default />
+		<keybind key="Super_L">
+			<action name="Execute" command="~/.config/rofi/launchers/type-1/launcher.sh" />
+		</keybind>
+		<keybind key="A-w">
+			<action name="Execute" command="foot" />
+		</keybind>
+		<keybind key="A-s">
+			<action name="Execute" command="screenshot" />
+		</keybind>
+		<keybind key="A-q">
+			<action name="Close" />
+		</keybind>
+	</keyboard>
+	<theme>
+		<name>GTK</name>
+		<titlebar>
+			<layout>:iconify,close</layout>
+		</titlebar>
+	</theme>
+</labwc_config>
