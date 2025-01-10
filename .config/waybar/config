@@ -8,6 +8,7 @@
 	],
 	"modules-right": [
 		"mpris",
+		"cpu",
 		"tray"
 	],
 	"wlr/taskbar": {
