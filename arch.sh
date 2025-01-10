@@ -4,6 +4,7 @@
 # Preinstall requirements:
 #   - networkmanager for network configuration
 #   - linux-zen for the kernel
+# Should probably also add !debug to makepkg options
 
 # Software used:
 #   - Window Manager: labwc
@@ -49,16 +50,19 @@ sudo pacman -Syy --noconfirm yay-git
 # Install basic desktop applications
 sudo pacman -S --noconfirm thunderbird foot nemo python micro starship eza uv keychain rofi-wayland nicotine+ mpv easyeffects bun keepassxc age
 sudo ln -s /usr/bin/micro /usr/bin/nano
-yay -S --noconfirm iipython-feishin-bin jellyfin-media-player syncthingtray-qt6 vesktop-bin
+yay -S --noconfirm iipython-feishin-bin jellyfin-media-player syncthingtray-qt6 vesktop-bin mercury-browser-avx2-bin
 
 # Handle syncing
 mkdir -p ~/.sync
 
 # Audio
-sudo pacman -S pipewire pipewire-audio pipewire-alsa pipewire-pulse pipewire-jack wireplumber
+sudo pacman -S --noconfirm pipewire pipewire-audio pipewire-alsa pipewire-pulse pipewire-jack wireplumber
 
 # Handle SSH
 # This expects the keyfile to already be in place (copied through the arch iso, etc)
+sudo chmod -R 600 ~/.ssh
+sudo chown -R $(whoami):$(whoami) ~/.ssh
+ssh-keyscan github.com >> ~/.ssh/known_hosts
 eval `ssh-agent -s`
 ssh-add ~/.ssh/id_ed25519
 
