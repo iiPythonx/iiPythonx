@@ -1,4 +1,5 @@
 {
+	"height": 32,
 	"modules-left": [
 		"wlr/taskbar"
 	],
@@ -9,7 +10,6 @@
 		"tray"	
 	],
 	"wlr/taskbar": {
-		"format": "{app_id}",
 		"on-click": "minimize-raise"
 	},
 	"clock": {
