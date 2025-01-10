@@ -11,5 +11,11 @@
 	"wlr/taskbar": {
 		"format": "{app_id}",
 		"on-click": "minimize-raise"
+	},
+	"clock": {
+		"format": "{:%I:%M %p}"
+	},
+	"tray": {
+		"spacing": 10
 	}
 }
