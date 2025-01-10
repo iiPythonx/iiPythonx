@@ -1,2 +1,2 @@
 #!/usr/bin/bash
-stow --ignore="README\.md|stow\.sh|\.git" .
+stow --ignore="arch\.sh|README\.md|stow\.sh|\.git" .

@@ -3,4 +3,5 @@ waybar                             >/dev/null 2>&1 &
 kanshi                             >/dev/null 2>&1 &
 thunderbird                        >/dev/null 2>&1 &
 vesktop                            >/dev/null 2>&1 &
+keepassxc                          >/dev/null 2>&1 &
 easyeffects --gapplication-service >/dev/null 2>&1 &

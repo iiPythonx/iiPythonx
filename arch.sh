@@ -39,6 +39,17 @@ sudo pacman -U --noconfirm "https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mi
 sudo pacman -Syy --noconfirm yay-git
 
 # Install basic desktop applications
-sudo pacman -S --noconfirm thunderbird foot nemo python micro starship eza uv keychain rofi-wayland nicotine+ mpv easyeffects
+sudo pacman -S --noconfirm thunderbird foot nemo python micro starship eza uv keychain rofi-wayland nicotine+ mpv easyeffects uv bun keepassxc
 sudo ln -s /usr/bin/micro /usr/bin/nano
-yay -S iipython-feishin-bin jellyfin-media-player
+yay -S --noconfirm iipython-feishin-bin jellyfin-media-player
+
+# Create global python venv
+uv venv
+uv pip install git+https://github.com/iiPythonx/usps git+https://github.com/nathom/streamrip
+
+# Setup theme
+yay -S --noconfirm mint-themes
+sudo pacman -S glib2 python-gobject
+gsettings set org.gnome.desktop.interface gtk-theme "Mint-Y-Dark"
+curl -O https://raw.githubusercontent.com/labwc/labwc-gtktheme/refs/heads/master/labwc-gtktheme.py
+python3 labwc-gtktheme.py && rm labwc-gtktheme.py
