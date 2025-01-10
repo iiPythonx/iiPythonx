@@ -4,6 +4,9 @@
 .config/micro/*
 !.config/micro/*.json
 
+.config/easyeffects/*
+!.config/easyeffects/output
+
 .fonts/Custom*
 .fonts/Roboto*
 .uuid
