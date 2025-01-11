@@ -5,9 +5,18 @@
 # Modules
 import json
 import asyncio
+from base64 import b64encode
 
 from websockets.asyncio.client import connect
 from websockets.exceptions import ConnectionClosedError
+
+# Configuration
+USERNAME = "feishin"
+
+# I know, this is "unsafe".
+# In addition to being "unsafe", it's also randomly generated and Feishin isn't accessible from anything other then my local machine.
+# If you're looking at this and don't like it, get a life.
+PASSWORD = "Lfln2z1B"
 
 # Handle connection
 async def process_lyrics(lyrics: list[dict], time: float) -> None:
@@ -26,7 +35,7 @@ async def main():
     while True:
         try:
             async with connect("ws://localhost:4333") as websocket:
-                await websocket.send(json.dumps({"event": "authenticate", "header": "Basic ZmVpc2hpbjpMZmxuMnoxQg=="}))
+                await websocket.send(json.dumps({"event": "authenticate", "header": f"Basic {b64encode(f'{USERNAME}:{PASSWORD}'.encode()).decode()}"}))
 
                 # Handle state
                 lyrics: None | list[dict] = None
