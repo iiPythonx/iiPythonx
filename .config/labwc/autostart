@@ -1,8 +1,9 @@
-swaybg -i ~/.wallpapers/rei.jpg    >/dev/null 2>&1 &
-waybar                             >/dev/null 2>&1 &
-kanshi                             >/dev/null 2>&1 &
-thunderbird                        >/dev/null 2>&1 &
-vesktop                            >/dev/null 2>&1 &
-keepassxc                          >/dev/null 2>&1 &
-syncthingtray-qt6                  >/dev/null 2>&1 &
-easyeffects --gapplication-service >/dev/null 2>&1 &
+swaybg -i ~/.wallpapers/rei.jpg                           >/dev/null 2>&1 &
+waybar                                                    >/dev/null 2>&1 &
+kanshi                                                    >/dev/null 2>&1 &
+thunderbird                                               >/dev/null 2>&1 &
+vesktop                                                   >/dev/null 2>&1 &
+keepassxc                                                 >/dev/null 2>&1 &
+syncthingtray-qt6                                         >/dev/null 2>&1 &
+easyeffects --gapplication-service                        >/dev/null 2>&1 &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 >/dev/null 2>&1 &
