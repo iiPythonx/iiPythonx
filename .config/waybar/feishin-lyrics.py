@@ -32,15 +32,16 @@ async def process_lyrics(lyrics: list[dict], time: float) -> None:
         print("", flush = True)
 
 async def main():
+
+    # Handle state
+    lyrics: None | list[dict] = None
+    lyrics_task: None | asyncio.Task = None
+    last_time: float = 0.0
+
     while True:
         try:
             async with connect("ws://localhost:4333") as websocket:
                 await websocket.send(json.dumps({"event": "authenticate", "header": f"Basic {b64encode(f'{USERNAME}:{PASSWORD}'.encode()).decode()}"}))
-
-                # Handle state
-                lyrics: None | list[dict] = None
-                lyrics_task: None | asyncio.Task = None
-                last_time: float = 0.0
 
                 while True:
                     data = json.loads(await websocket.recv())
@@ -72,6 +73,10 @@ async def main():
                             lyrics = raw_lyrics[0]["line"] if raw_lyrics else None
 
         except (OSError, ConnectionClosedError):
+            if lyrics_task is not None:
+                lyrics_task.cancel()
+                lyrics_task = None
+
             print("", flush = True)
             await asyncio.sleep(10)
 
