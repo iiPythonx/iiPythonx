@@ -5,8 +5,7 @@
 }
 
 window#waybar {
-    background-color: rgba(43, 48, 59, 0.5);
-    /* border-bottom: 3px solid rgba(100, 114, 125, 0.5); */
+    background-color: transparent;
     color: #ffffff;
     transition-property: background-color;
     transition-duration: .5s;
@@ -15,15 +14,6 @@ window#waybar {
 window#waybar.hidden {
     opacity: 0.2;
 }
-
-/*
-window#waybar.empty {
-    background-color: transparent;
-}
-window#waybar.solo {
-    background-color: #FFFFFF;
-}
-*/
 
 window#waybar.termite {
     background-color: #3F3F3F;
@@ -76,6 +66,7 @@ label:focus {
 }
 
 #cpu {
+    min-width: 30px;
     background-color: #2ecc71;
     color: #000000;
 }
