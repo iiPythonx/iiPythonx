@@ -14,6 +14,10 @@
 		<keybind key="A-q">
 			<action name="Close" />
 		</keybind>
+
+		<!-- Unbind Alt+Up and Alt+Down so I can use them in VSC -->
+		<keybind key="A-Up"></keybind>
+		<keybind key="A-Down"></keybind>
 	</keyboard>
 	<theme>
 		<name>GTK</name>

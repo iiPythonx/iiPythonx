@@ -7,12 +7,16 @@
 		"clock"
 	],
 	"modules-right": [
+		"custom/lyrics",
 		"mpris",
 		"cpu",
 		"tray"
 	],
 	"wlr/taskbar": {
 		"on-click": "minimize-raise"
+	},
+	"custom/lyrics": {
+		"exec": "~/.venv/bin/python3 ~/.config/waybar/feishin-lyrics.py"
 	},
 	"clock": {
 		"format": "{:%I:%M %p}"
