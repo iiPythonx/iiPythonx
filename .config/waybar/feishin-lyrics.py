@@ -51,6 +51,7 @@ async def main():
                             last_time = current_time
 
                         case {"data": song, "event": "song" | "state" as event_type}:
+                            print(song, event_type)
                             if event_type == "state" and "song" not in song:
                                 continue
 
@@ -59,8 +60,7 @@ async def main():
                                 lyrics_task = None
 
                             raw_lyrics = json.loads((song if event_type == "song" else song["song"])["lyrics"])
-                            if raw_lyrics:
-                                lyrics = raw_lyrics[0]["line"]
+                            lyrics = raw_lyrics[0]["line"] if raw_lyrics else None
 
         except (OSError, ConnectionClosedError):
             print("", flush = True)
