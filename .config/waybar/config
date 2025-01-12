@@ -24,6 +24,10 @@
 	"tray": {
 		"spacing": 10
 	},
+	"battery": {
+		"format": "{capacity}% {icon}",
+		"format-icons": ["", "", "", "", ""]
+	},
 	"mpris": {
 		"player": "Feishin",
 		"format": "{player_icon} {dynamic}",

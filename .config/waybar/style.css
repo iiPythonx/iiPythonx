@@ -47,6 +47,7 @@ button:hover {
 #cpu,
 #temperature,
 #tray,
+#battery,
 #mode {
     padding: 0 10px;
     color: #ffffff;
