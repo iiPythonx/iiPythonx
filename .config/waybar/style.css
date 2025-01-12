@@ -20,7 +20,7 @@ window#waybar.hidden {
     opacity: 0.2;
 }
 
-.modules-left, .modules-center, .modules-right {
+#taskbar, #custom-weather, .modules-center, .modules-right {
     background-color: #000000;
     border: 1.5px solid #6dabe4;
     border-radius: 10px;
@@ -29,8 +29,12 @@ window#waybar.hidden {
     padding-left: 4px;
 }
 
-.modules-left {
+#taskbar {
     padding-right: 0px;
+}
+
+#custom-weather {
+    margin-left: 10px;
 }
 
 button {
@@ -57,6 +61,7 @@ button:hover {
 #temperature,
 #tray,
 #battery,
+#custom-weather,
 #mode {
     padding: 0 10px;
     color: #6dabe4;

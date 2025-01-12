@@ -6,7 +6,8 @@
 	"height": 33,
 	"spacing": 0,
 	"modules-left": [
-		"wlr/taskbar"
+		"wlr/taskbar",
+		"custom/weather"
 	],
 	"modules-center": [
 		"mpris"
@@ -23,6 +24,11 @@
 	},
 	"custom/lyrics": {
 		"exec": "~/.venv/bin/python3 ~/.config/waybar/feishin-lyrics.py"
+	},
+	"custom/weather": {
+		"exec": "~/.config/waybar/fetch-weather.sh",
+		"restart-interval": 3600,
+		"on-click": "xdg-open https://www.accuweather.com"
 	},
 	"clock": {
 		"format": "{:%H:%M %b %d}"
