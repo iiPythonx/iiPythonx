@@ -31,7 +31,8 @@
 		"on-click": "xdg-open https://www.accuweather.com"
 	},
 	"clock": {
-		"format": "{:%H:%M %b %d}"
+		"format": "{:%H:%M %b %d}",
+		"on-click": "foot -H cal"
 	},
 	"cpu": {
 		"format": "{usage}% \uf4bc"
