@@ -4,24 +4,33 @@
     font-size: 13px;
 }
 
+* {
+    font-weight: bold;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-family: "FiraCode Nerd Font";
+}
+
 window#waybar {
-    background-color: transparent;
-    color: #ffffff;
-    transition-property: background-color;
-    transition-duration: .5s;
+    color: #6dabe4;
+    background: transparent;
 }
 
 window#waybar.hidden {
     opacity: 0.2;
 }
 
-window#waybar.termite {
-    background-color: #3F3F3F;
+.modules-left, .modules-center, .modules-right {
+    background-color: #000000;
+    border: 1.5px solid #6dabe4;
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-right: 4px;
+    padding-left: 4px;
 }
 
-window#waybar.chromium {
-    background-color: #000000;
-    border: none;
+.modules-left {
+    padding-right: 0px;
 }
 
 button {
@@ -50,16 +59,12 @@ button:hover {
 #battery,
 #mode {
     padding: 0 10px;
-    color: #ffffff;
+    color: #6dabe4;
 }
 
 #window,
 #workspaces {
     margin: 0 4px;
-}
-
-#clock {
-    background-color: #000000;
 }
 
 label:focus {
@@ -68,12 +73,6 @@ label:focus {
 
 #cpu {
     min-width: 30px;
-    background-color: #2ecc71;
-    color: #000000;
-}
-
-#tray {
-    background-color: #2980b9;
 }
 
 #tray > .passive {
@@ -87,10 +86,8 @@ label:focus {
 
 #mpris {
     padding: 0px 10px;
-    background-color: #51a37a;
 }
 
 #custom-lyrics {
     padding: 0px 10px;
-    background-color: black;
 }

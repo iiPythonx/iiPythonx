@@ -1,16 +1,22 @@
 {
-	"height": 32,
+	"margin-top": 2,
+	"margin-left": 10,
+	"margin-right": 10,
+	"margin-bottom": 5,
+	"height": 33,
+	"spacing": 0,
 	"modules-left": [
 		"wlr/taskbar"
 	],
 	"modules-center": [
-		"clock"
+		"mpris"
 	],
 	"modules-right": [
-		"custom/lyrics",
-		"mpris",
+		"tray",
 		"cpu",
-		"tray"
+		"temperature",
+		"battery",
+		"clock"
 	],
 	"wlr/taskbar": {
 		"on-click": "minimize-raise"
@@ -19,10 +25,16 @@
 		"exec": "~/.venv/bin/python3 ~/.config/waybar/feishin-lyrics.py"
 	},
 	"clock": {
-		"format": "{:%I:%M %p}"
+		"format": "{:%H:%M %b %d}"
+	},
+	"cpu": {
+		"format": "{usage}% \uf4bc"
+	},
+	"temperature": {
+		"format": "{temperatureC}°C \udb80\ude38"
 	},
 	"tray": {
-		"spacing": 10
+		"spacing": 15
 	},
 	"battery": {
 		"format": "{capacity}% {icon}",
@@ -30,17 +42,17 @@
 	},
 	"mpris": {
 		"player": "Feishin",
-		"format": "{player_icon} {dynamic}",
-		"format-paused": "{status_icon} {dynamic}",
+		"format": "{player_icon}  {dynamic}",
+		"format-paused": "{status_icon}  {dynamic}",
 		"dynamic-order": [
 			"artist",
 			"title"
 		],
 		"player-icons": {
-			"default": "♫"
+			"default": "\udb81\udf5a"
 		},
 		"status-icons": {
-			"paused": "⏸"
+			"paused": "\udb80\udfe4"
 		}
 	}
 }
