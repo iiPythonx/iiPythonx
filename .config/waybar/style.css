@@ -20,7 +20,7 @@ window#waybar.hidden {
     opacity: 0.2;
 }
 
-#taskbar, #custom-weather, .modules-center, .modules-right {
+#taskbar, #custom-weather, #mpris, .modules-right {
     background-color: #000000;
     border: 1.5px solid #6dabe4;
     border-radius: 10px;
@@ -91,6 +91,10 @@ label:focus {
 
 #mpris {
     padding: 0px 10px;
+}
+
+#mpris.stopped {
+    border: none;
 }
 
 #custom-lyrics {
