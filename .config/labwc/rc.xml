@@ -25,4 +25,9 @@
 			<layout>:iconify,close</layout>
 		</titlebar>
 	</theme>
+	<libinput>
+		<device category="touchpad">
+			<naturalScroll>yes</naturalScroll>
+		</device>
+	</libinput>
 </labwc_config>
