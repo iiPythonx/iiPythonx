@@ -7,3 +7,4 @@ keepassxc                                                 >/dev/null 2>&1 &
 syncthingtray-qt6                                         >/dev/null 2>&1 &
 easyeffects --gapplication-service                        >/dev/null 2>&1 &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 >/dev/null 2>&1 &
+dunst													  >/dev/null 2>&1 &

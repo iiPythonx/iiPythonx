@@ -5,8 +5,8 @@ set -g -x QT_QPA_PLATFORMTHEME qt5ct
 
 starship init fish | source
 
-fish_add_path "~/.bun/bin"
-fish_add_path "~/.venv/bin"
+fish_add_path "/home/benjamin/.bun/bin"
+fish_add_path "/home/benjamin/.venv/bin"
 
 alias vv "source .venv/bin/activate.fish"
 alias ls "eza"
