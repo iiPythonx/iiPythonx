@@ -10,7 +10,7 @@
 		"custom/weather"
 	],
 	"modules-center": [
-		"mpris"
+		"custom/lyrics"
 	],
 	"modules-right": [
 		"tray",
