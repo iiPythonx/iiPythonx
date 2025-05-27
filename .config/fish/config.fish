@@ -1,7 +1,7 @@
 set fish_greeting
 
 set -g -x EDITOR micro
-set -g -x QT_QPA_PLATFORMTHEME qt5ct
+set -g -x QT_QPA_PLATFORMTHEME qt6ct
 
 starship init fish | source
 
