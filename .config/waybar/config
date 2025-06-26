@@ -10,7 +10,7 @@
 		"custom/weather"
 	],
 	"modules-center": [
-		"custom/lyrics"
+		"mpris"
 	],
 	"modules-right": [
 		"tray",
@@ -38,7 +38,8 @@
 		"format": "{usage}% \uf4bc"
 	},
 	"temperature": {
-		"format": "{temperatureC}°C \udb80\ude38"
+		"format": "{temperatureC}°C \udb80\ude38",
+		"thermal-zone": 2
 	},
 	"tray": {
 		"spacing": 15
