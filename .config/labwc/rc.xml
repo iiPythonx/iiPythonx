@@ -22,6 +22,14 @@
 		<keybind key="A-Up"></keybind>
 		<keybind key="A-Down"></keybind>
 	</keyboard>
+	<mouse>
+		<default />
+		<context name="Frame">
+		    <mousebind button="A-Left" action="Drag">
+		        <action name="Move" />
+		    </mousebind>
+		</context>
+	</mouse>
 	<theme>
 		<name>GTK</name>
 		<titlebar>
