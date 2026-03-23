@@ -6,9 +6,12 @@
 	gpgsign = true
 [gpg]
 	format = ssh
+	allowedSignersFile = "~/.ssh/allowed_signers"
 [init]
 	defaultBranch = main
 [url "ssh://git@github.com/"]
 	insteadOf = https://github.com/
 [pull]
 	rebase = true
+[gpg "ssh"]
+	allowedSignersFile = /home/benjamin/.ssh/allowed_signers
