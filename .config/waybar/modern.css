@@ -1,0 +1,30 @@
+/* Global styling */
+* {
+    color: #4fef8f;
+    font-family: "FiraCode Nerd Font";
+}
+
+/* Non blinding background */
+window#waybar {
+    background: #000;
+}
+
+/* Module spacing */
+label.module, #tray {
+    margin: 0px 10px;
+}
+
+/* Remove default green */
+#custom-divider, #custom-lyrics, #custom-weather, #clock, #wireplumber.muted {
+    color: #a5a5a5;
+}
+
+/* Divider */
+#custom-divider {
+    margin: 0px;
+}
+
+/* Selective coloring */
+.yellow            { color: #efef4f; }
+.orange, .warning  { color: #ef8f4f; }
+.red,    .critical { color: #ef4f4f; }

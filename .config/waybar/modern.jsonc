@@ -1,0 +1,105 @@
+{
+
+	// Taskbar
+	"wlr/taskbar": {
+
+		// Ensure clicking actually does something :3
+		"on-click": "minimize-raise"
+	},
+
+	// CPU usage
+	"cpu": {
+		"format": "CPU {usage}%",
+		"states": {
+			"yellow": 40,
+			"orange": 60,
+			"red": 80
+		},
+		"interval": 2,
+		"max-length": 10
+	},
+	
+	// Temperature
+	"temperature": {
+		"format": "TEM {temperatureC}°C",
+		"thermal-zone": 0,
+		"warning-threshold": 80,
+		"critical-threshold": 90
+	},
+
+	// Pipewire
+	"wireplumber": {
+		"format": "VOL {volume}%",
+		"format-muted": "VOL MUT",
+		"on-click": "pavucontrol",
+		"states": {
+			"yellow": 40,
+			"orange": 45,
+			"red": 50
+		},
+		"max-volume": 55
+	},
+
+	// Battery
+	"battery": {
+		"format": "BAT {capacity}%",
+		"states": {
+			"yellow": 60,
+			"orange": 40,
+			"red": 20
+		}
+	},
+
+	// Clock
+	"clock": {
+		"format": "{:%H:%M %b %d}",
+		"on-click": "foot -H cal"
+	},
+
+	// Lyrics
+	"custom/lyrics": {
+		"exec": "~/.venv/bin/python3 ~/.config/waybar/feishin-lyrics.py"
+	},
+
+	// Tray
+	"tray": {
+		"spacing": 15
+	},
+
+	// Divider
+	"custom/divider": {
+		"format": "|",
+		"interval": "once",
+		"tooltip": false
+	},
+
+	// Weather
+	"custom/weather": {
+		"exec": "~/.config/waybar/fetch-weather.sh",
+		"restart-interval": 3600,
+		"on-click": "xdg-open https://www.accuweather.com"
+	},
+
+	// Module setup
+	"modules-left": [
+		"wlr/taskbar",
+		"custom/divider",
+		"tray"
+	],
+	"modules-center": [
+		"custom/lyrics"
+	],
+	"modules-right": [
+		"custom/weather",
+		"custom/divider",
+		"cpu",
+		"custom/divider",
+		"temperature",
+		"custom/divider",
+		"wireplumber",
+		"custom/divider",
+		"battery",
+		"custom/divider",
+		"clock"
+	]
+}

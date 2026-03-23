@@ -3,14 +3,14 @@
 	"margin-left": 10,
 	"margin-right": 10,
 	"margin-bottom": 5,
-	"height": 33,
+	"height": 35,
 	"spacing": 0,
 	"modules-left": [
 		"wlr/taskbar",
 		"custom/weather"
 	],
 	"modules-center": [
-		"mpris"
+		"custom/lyrics"
 	],
 	"modules-right": [
 		"tray",

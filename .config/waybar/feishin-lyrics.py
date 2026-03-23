@@ -61,7 +61,6 @@ async def main():
                             last_time = current_time
 
                         case {"data": song, "event": "song" | "state" as event_type}:
-                            print(song, event_type)
                             if event_type == "state" and "song" not in song:
                                 continue
 

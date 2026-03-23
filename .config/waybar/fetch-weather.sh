@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 # Copyright (c) 2025 iiPython
 
-CURRENT=$(curl -s "https://wttr.in/?format=j2" | jq .current_condition[0])
+CURRENT=$(curl -s "https://wttr.in/?format=j2" | jq .data.current_condition[0])
 TEMP=$(echo $CURRENT | jq -r .temp_F)
 case $(echo $CURRENT | jq -r .weatherCode) in
     "350" | "374" | "377")                          ICON="󰖒" ;;  # Hail
