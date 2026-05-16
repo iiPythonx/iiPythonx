@@ -7,3 +7,5 @@ vesktop                                                   >/dev/null 2>&1 &
 keepassxc                                                 >/dev/null 2>&1 &
 easyeffects --gapplication-service                        >/dev/null 2>&1 &
 dunst													  >/dev/null 2>&1 &
+kanshi                                                    >/dev/null 2>&1 &
+gnome-keyring-daemon                                      >/dev/null 2>&1 &

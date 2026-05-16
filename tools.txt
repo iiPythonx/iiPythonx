@@ -1,0 +1,18 @@
+Arch/Artix Linux, Basic Software Set:
+    - Compositor: labwc
+    - Wallpaper: swaybg
+    - Bar: waybar
+    - Email: thunderbird
+    - Discord: vesktop
+    - Passwords: KeepassXC
+    - EQ: Easyeffects
+    - Notifications: dunst
+    - Display: kanshi
+    - Keyring: gnome-keyring-daemon
+    - Prompt: starship
+
+Additional:
+    - ls replacement: exa
+    - nano replacement: micro
+    - uv
+    - keychain (pending migration to normal ssh-agent)
