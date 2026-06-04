@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd ~/.config
 
 # Background
@@ -15,8 +17,8 @@ dunst	               >/dev/null 2>&1 &
 gnome-keyring-daemon   >/dev/null 2>&1 &
 
 # System-specific logic
-switch $hostname
-    case xi.home.iipython.dev
+case "$HOSTNAME" in
+    xi.home.iipython.dev)
 
         # Waybar
         waybar -c ./waybar/presets/xi.jsonc -s ./waybar/modern.css >/dev/null 2>&1 &
@@ -32,7 +34,9 @@ switch $hostname
         wireplumber    >/dev/null 2>&1 &
         pipewire-pulse >/dev/null 2>&1 &
 
-    case zed.home.iipython.dev
+        ;;
+
+    zed.home.iipython.dev)
 
         # Waybar
         waybar -c ./waybar/presets/zed.jsonc -s ./waybar/modern.css >/dev/null 2>&1 &
@@ -42,4 +46,9 @@ switch $hostname
 
         # Multiple monitor support
         kanshi                             >/dev/null 2>&1 &
-end
+
+        ;;
+
+    *)
+        ;;
+esac

@@ -22,22 +22,9 @@
 	// Temperature
 	"temperature": {
 		"format": "TEM {temperatureC}°C",
-		"thermal-zone": 0,
+		"thermal-zone": 2,
 		"warning-threshold": 80,
 		"critical-threshold": 90
-	},
-
-	// Pipewire
-	"wireplumber": {
-		"format": "VOL {volume}%",
-		"format-muted": "VOL MUT",
-		"on-click": "pavucontrol",
-		"states": {
-			"yellow": 40,
-			"orange": 45,
-			"red": 50
-		},
-		"max-volume": 55
 	},
 
 	// Clock
@@ -101,8 +88,6 @@
 		"cpu",
 		"custom/divider",
 		"temperature",
-		"custom/divider",
-		"wireplumber",
 		"custom/divider",
 		"clock"
 	]
