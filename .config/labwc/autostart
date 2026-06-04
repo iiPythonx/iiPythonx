@@ -1,11 +1,37 @@
 cd ~/.config
 
+# Background
 swaybg -i ~/.wallpapers/rei.jpg                           >/dev/null 2>&1 &
+
+# Topbar using modern config
 waybar -c ./waybar/modern.jsonc -s ./waybar/modern.css    >/dev/null 2>&1 &
-thunderbird                                               >/dev/null 2>&1 &
-vesktop                                                   >/dev/null 2>&1 &
-keepassxc                                                 >/dev/null 2>&1 &
-easyeffects --gapplication-service                        >/dev/null 2>&1 &
-dunst													  >/dev/null 2>&1 &
-kanshi                                                    >/dev/null 2>&1 &
-gnome-keyring-daemon                                      >/dev/null 2>&1 &
+
+# Shared applications
+thunderbird            >/dev/null 2>&1 &
+vesktop                >/dev/null 2>&1 &
+keepassxc              >/dev/null 2>&1 &
+dunst	               >/dev/null 2>&1 &
+gnome-keyring-daemon   >/dev/null 2>&1 &
+
+# System-specific logic
+switch $hostname
+    case xi.home.iipython.dev
+
+        # No-systemd syncthing launch
+        syncthing --no-browser >/dev/null 2>&1 &
+
+        # GTK
+        /usr/lib/xdg-desktop-portal-gtk >/dev/null 2>&1 &
+
+        # Audio subsystem (again, no systemd)
+        pipewire       >/dev/null 2>&1 &
+        wireplumber    >/dev/null 2>&1 &
+        pipewire-pulse >/dev/null 2>&1 &
+
+    case zed.home.iipython.dev
+
+        # EQ for X2HR's
+        easyeffects --gapplication-service                        >/dev/null 2>&1 &
+
+        # Multiple monitor support
+        kanshi                                                    >/dev/null 2>&1 &
