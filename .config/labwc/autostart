@@ -3,19 +3,23 @@ cd ~/.config
 # Background
 swaybg -i ~/.wallpapers/rei.jpg                           >/dev/null 2>&1 &
 
-# Topbar using modern config
-waybar -c ./waybar/modern.jsonc -s ./waybar/modern.css    >/dev/null 2>&1 &
-
 # Shared applications
 thunderbird            >/dev/null 2>&1 &
 vesktop                >/dev/null 2>&1 &
 keepassxc              >/dev/null 2>&1 &
+
+# Notification system
 dunst	               >/dev/null 2>&1 &
+
+# System-wide keyring
 gnome-keyring-daemon   >/dev/null 2>&1 &
 
 # System-specific logic
 switch $hostname
     case xi.home.iipython.dev
+
+        # Waybar
+        waybar -c ./waybar/presets/xi.jsonc -s ./waybar/modern.css >/dev/null 2>&1 &
 
         # No-systemd syncthing launch
         syncthing --no-browser >/dev/null 2>&1 &
@@ -30,8 +34,12 @@ switch $hostname
 
     case zed.home.iipython.dev
 
+        # Waybar
+        waybar -c ./waybar/presets/zed.jsonc -s ./waybar/modern.css >/dev/null 2>&1 &
+
         # EQ for X2HR's
-        easyeffects --gapplication-service                        >/dev/null 2>&1 &
+        easyeffects --gapplication-service >/dev/null 2>&1 &
 
         # Multiple monitor support
-        kanshi                                                    >/dev/null 2>&1 &
+        kanshi                             >/dev/null 2>&1 &
+end

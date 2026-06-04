@@ -40,16 +40,6 @@
 		"max-volume": 55
 	},
 
-	// Battery
-	"battery": {
-		"format": "BAT {capacity}% |",
-		"states": {
-			"yellow": 60,
-			"orange": 40,
-			"red": 20
-		}
-	},
-
 	// Clock
 	"clock": {
 		"format": "{:%H:%M %b %d}",
@@ -114,7 +104,6 @@
 		"custom/divider",
 		"wireplumber",
 		"custom/divider",
-		"battery",
 		"clock"
 	]
 }
