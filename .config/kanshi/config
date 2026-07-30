@@ -1,4 +1,0 @@
-profile pc {
-	output HDMI-A-1 mode 1920x1080@74.973000 position 1920,0
-	output DP-3 mode 1920x1080@165.001007 position 0,0
-}

@@ -18,3 +18,7 @@ alias ls "eza"
 alias nano "micro"
 
 eval $(keychain --eval id_ed25519 -q --noask)
+
+# bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH

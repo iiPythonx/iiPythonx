@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-# Copyright (c) 2025 iiPython
+# Copyright (c) 2025-2026 iiPython
 
 # Handle linking
 link() {
@@ -24,6 +24,8 @@ done
 # Symlink wallpapers
 link .wallpapers
 
-# Symlink theme
-mkdir -p ~/.local/share/themes/GTK
-link .local/share/themes/GTK/openbox-3
+# Install font
+if [ ! -d /usr/share/fonts/fira-code-nerd-font ]; then
+    sudo cp -rv .fonts/fira-code-nerd-font /usr/share/fonts
+    sudo fc-cache -f
+fi
