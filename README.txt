@@ -1,32 +1,31 @@
-Hi. I'm Benjamin.
-I'm a full-stack software developer, system administrator, and more.
+Kachow!
+I'm Benjamin: a software developer, system administrator, and cybersecurity student. 
 
 Languages
-=============================
-    Python*     (mastered, 10 years)
-    C++         (near mastered, 10 years)
-    HTML*       (mastered, 9 years)
-    JavaScript* (good, 8 years)
-    CSS*        (good, 8 years)
-    Lua(u)      (good, 5 years)
-    Rust        (good, 3 years)
+──┬──────────────────────────
+  ├➝ C++*        12y
+  ├➝ Python*     11-12y
+  ├➝ HTML*       11y
+  ├➝ JavaScript  9y
+  ├➝ C           7y  
+  ├➝ CSS*        7y
+  ├➝ Lua(u)      6y
+  └➝ Rust        4y
 
     *, one of my primaries.
 
 Experience
-=============================
-    Linux system administration*
-    Visual Studio Code*
-    Nginx*
-    Cloudflare*
-    Git*
-    Docker
-    Shell Scripting (bash/fish/powershell)
+──┬──────────────────────────
+  ├➝ Linux: Arch, Debian, Fedora, RHEL, etc.
+  ├➝ Networking: Switching, Routing, DNS, NTP, etc.
+  ├➝ NGINX, HTTP(s)/1/2/3, TLS
+  ├➝ Shell work: Bash/Fish/powershell
+  └➝ VSCodium
 
 Real Life
-=============================
-    FIRST Tech Challenge
-    VEX Robotics
-    Cyberpatriot
+──┬──────────────────────────
+  ├➝ Robotics: FIRST Tech Challenge / VEX Robotics
+  ├➝ Cyberpatriot
+  └➝ Air Force Research Lab
 
 https://iipython.dev | ben@iipython.dev
