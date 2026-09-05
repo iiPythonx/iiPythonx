@@ -9,7 +9,6 @@ end
 
 starship init fish | source
 
-fish_add_path "/home/benjamin/.bun/bin"
 fish_add_path "/home/benjamin/.local/bin"
 fish_add_path "/home/benjamin/.venv/bin"
 
@@ -18,7 +17,3 @@ alias ls "eza"
 alias nano "micro"
 
 eval $(keychain --eval id_ed25519 -q --noask)
-
-# bun
-set --export BUN_INSTALL "$HOME/.bun"
-set --export PATH $BUN_INSTALL/bin $PATH

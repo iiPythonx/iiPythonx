@@ -1,11 +1,5 @@
 .config/fish/*
 !.config/fish/config.fish
 
-.config/easyeffects/*
-!.config/easyeffects/output
-
-.fonts/Custom*
-.fonts/Roboto*
 .uuid
-
 .config/gtk-3.0/bookmarks
